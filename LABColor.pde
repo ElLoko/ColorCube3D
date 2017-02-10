@@ -3,7 +3,7 @@
 
 // This script creates a 3D color cube to explain the LAB color space.
 // The script was a training 
-// inspired by the work of Daniel Shifferman
+// inspired by the work of DANIEL SHIFFMAN
 
 
 class LABColor {

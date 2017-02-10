@@ -3,13 +3,15 @@
 
 // This script creates a 3D color cube to explain the LAB color space.
 // The script was a training 
-// inspired by the work of Daniel Shifferman
+// inspired by the work of DANIEL SHIFFMAN
 
 import peasy.*;
 import peasy.org.apache.commons.math.*;
 import peasy.org.apache.commons.math.geometry.*;
 PeasyCam cam;
 ArrayList<LABColor> p;
+
+// Change to LStep for resolution. 4 gives a good view. Higher values reduce the resolution. Lower values will slow down the 3D motion.
 int LStep = 4;
 
 
